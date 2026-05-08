@@ -53,8 +53,11 @@ nav a {
 }
 
 .hero-image img {
-  width: 320px;
-  border-radius: 20px;
+ width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #b7bea8;
 }
 
 .btn {
