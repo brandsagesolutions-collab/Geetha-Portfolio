@@ -140,51 +140,26 @@ nav a {
   }
 
 }
-html {
-  scroll-behavior: smooth;
-}
-
 .hero-text {
-  animation: fadeSlideLeft 1s ease forwards;
+  opacity: 0;
+  animation: fadeSlideLeft 1.2s ease forwards;
 }
 
 .hero-image {
-  animation: fadeSlideRight 1s ease forwards;
+  opacity: 0;
+  animation: fadeSlideRight 1.2s ease forwards;
+  animation-delay: 0.3s;
 }
 
 nav {
+  opacity: 0;
   animation: fadeDown 0.8s ease forwards;
-}
-
-.section {
-  animation: fadeUp 0.8s ease forwards;
-}
-
-.skill-card,
-.service-card,
-.job {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.skill-card:hover,
-.service-card:hover,
-.job:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 12px 30px rgba(0,0,0,0.10);
-}
-
-.btn {
-  transition: transform 0.3s ease, background 0.3s ease;
-}
-
-.btn:hover {
-  transform: translateY(-3px);
 }
 
 @keyframes fadeSlideLeft {
   from {
     opacity: 0;
-    transform: translateX(-40px);
+    transform: translateX(-100px);
   }
   to {
     opacity: 1;
@@ -195,7 +170,7 @@ nav {
 @keyframes fadeSlideRight {
   from {
     opacity: 0;
-    transform: translateX(40px);
+    transform: translateX(100px);
   }
   to {
     opacity: 1;
@@ -206,18 +181,7 @@ nav {
 @keyframes fadeDown {
   from {
     opacity: 0;
-    transform: translateY(-25px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes fadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(35px);
+    transform: translateY(-60px);
   }
   to {
     opacity: 1;
