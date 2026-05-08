@@ -427,3 +427,11 @@ nav {
     grid-template-columns: 1fr;
   }
 }
+.why-intro {
+  margin-bottom: 60px;
+  display: block;
+}
+
+.why-grid {
+  margin-top: 20px;
+}
