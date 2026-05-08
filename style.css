@@ -53,7 +53,7 @@ nav a {
 }
 
 .hero-image img {
- width: 280px;
+  width: 280px;
   height: 280px;
   object-fit: cover;
   border-radius: 50%;
