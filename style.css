@@ -188,3 +188,16 @@ nav {
     transform: translateY(0);
   }
 }
+.skill-card,
+.service-card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.skill-card:hover,
+.service-card:hover {
+  background: #7a8b72;
+  color: white;
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
